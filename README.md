@@ -1,10 +1,6 @@
 # 💵 money.ts
 
-![CI](https://github.com/half0wl/money.ts/actions/workflows/ci.yml/badge.svg)
-
-[Documentation](https://half0wl.github.io/money.ts/index.html)
-
----
+![CI](https://github.com/half0wl/money.ts/actions/workflows/ci.yml/badge.svg) [![NPM](https://img.shields.io/npm/v/@half0wl/money)](https://www.npmjs.com/package/@half0wl/money) [![Documentation](https://img.shields.io/badge/Documentation-%F0%9F%93%9A-orange)](https://half0wl.github.io/money.ts/index.html)
 
 This library aims to make working with monetary values in TypeScript/JavaScript safer and easier.
 
@@ -39,11 +35,11 @@ const Money = require("@half0wl/money").Money
 ## Features
 
 * Arithmetic (add, subtract, etc.) and comparison (equals, greater/less than, etc.)
-* Immutability - every operation returns a new `Money` object, and properties
-are not modifiable
+* Immutability. Every operation returns a new `Money` object, and properties are not modifiable
 * Locale-aware string formatting
 * Lightweight; zero external dependencies
-* JavaScript is fully support. Enabling [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) (`'use strict';`) is highly recommended, but this will work fine without it
+* JavaScript is fully supported. Enabling [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) (`'use strict';`) is highly recommended, but this will work fine without it
+* [Full documentation](https://half0wl.github.io/money.ts/index.html)
 
 ## Concept
 
@@ -54,7 +50,7 @@ A Money object has a `currency` and `amount`, where:
 
 ## Usage
 
-Full API documentation for `Money` is available [here](https://half0wl.github.io/money.ts/classes/Money.html#constructor).
+Full API documentation for the `Money` class is available [here](https://half0wl.github.io/money.ts/classes/Money.html#constructor).
 
 ```typescript
 import { Money } from "@half0wl/money"
