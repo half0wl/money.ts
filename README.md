@@ -2,6 +2,10 @@
 
 ![CI](https://github.com/half0wl/money.ts/actions/workflows/ci.yml/badge.svg)
 
+[Documentation](https://half0wl.github.io/money.ts/index.html)
+
+---
+
 This library aims to make working with monetary values in TypeScript/JavaScript safer and easier.
 
 Monetary values always have a currency. They are distinct by currency ($1 is
@@ -49,6 +53,8 @@ A Money object has a `currency` and `amount`, where:
 * Amount is represented in the currency's lowest unit, e.g. US$5.00 = 500 cents = `{ currency: USD, amount: 500 }`
 
 ## Usage
+
+Full API documentation for `Money` is available [here](https://half0wl.github.io/money.ts/classes/Money.html#constructor).
 
 ```typescript
 import { Money } from "@half0wl/money"
