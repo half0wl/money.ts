@@ -1,0 +1,48 @@
+{
+  "name": "@half0wl/money",
+  "version": "1.0.0",
+  "description": "A TypeScript/JavaScript library to make working with monetary values easier and safer.",
+  "repository": "half0wl/ts-money",
+  "author": "Ray Chen <ray@raychen.io>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "keywords": [
+    "money",
+    "fowler",
+    "fowler money pattern",
+    "money object",
+    "money value object",
+    "currency",
+    "currencies",
+    "money dto",
+    "ts money",
+    "js money"
+  ],
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "clean": "rm -rf dist/ types/ tsconfig.build.tsbuildinfo tsconfig.tsbuildinfo",
+    "clean-docs": "rm -rf docs/",
+    "gen-docs": "typedoc lib --tsconfig tsconfig.build.json --theme default",
+    "gen-currency-data": "ts-node tools/GenerateCurrencyData.ts resources/iso_currency_data.json lib/Currency/ISOCurrencies.ts",
+    "test": "ts-mocha --paths -p tsconfig.json tests/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.10",
+    "@types/prettier": "^2.7.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "prettier": "^2.8.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "typedoc": "^0.23.21",
+    "typescript": "^4.9.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "categoryOrder": [
+    "Static Constructor",
+    "Getter",
+    "Comparison",
+    "Arithmetic",
+    "Formatting",
+    "Internal"
+  ]
+}
