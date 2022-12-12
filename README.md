@@ -1,5 +1,7 @@
 # 💵 money.ts
 
+![CI](https://github.com/half0wl/money.ts/actions/workflows/ci.yml/badge.svg)
+
 This library aims to make working with monetary values in TypeScript/JavaScript safer and easier.
 
 Monetary values always have a currency. They are distinct by currency ($1 is
